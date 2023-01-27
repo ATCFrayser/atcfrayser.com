@@ -1,0 +1,38 @@
+h1 {
+  color: #04151F;
+  padding: 3%;
+  font-size: 3rem;
+  font-family: 'Patrick Hand', cursive;
+}
+body {
+  background-color: #EFD6AC;
+  font-family: 'Raleway', sans-serif;
+}
+section {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.navbarSec {
+  padding: 1%;
+  background-color: #183A37;
+  color: #EFD6AC;
+  width: 100%;
+  position: fixed;
+  font-size: 2rem;
+  z-index: 2;
+  border: 0;
+}
+.navigationColor a.active {
+  background-color: #84371A !important;
+}
+.navigationColor a:hover {
+  background-color: #C44900 !important;
+}
+.nav-link {
+  color: #EFD6AC !important;
+}
+.topSection h1 {
+padding: 0;
+text-align: center;
+}
