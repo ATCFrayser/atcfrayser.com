@@ -28,6 +28,4 @@ app.get('/futureProjects', (req, res) => {
     res.sendFile(__dirname + '/futureProjects.html');
 });
 
-app.listen(3000, (err, res) => {
-    console.log("Server running on port 3000");
-});
+app.listen(process.env.PORT || 5000);
