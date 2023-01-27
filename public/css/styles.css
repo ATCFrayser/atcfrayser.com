@@ -4,6 +4,9 @@ h1 {
   font-size: 3rem;
   font-family: 'Patrick Hand', cursive;
 }
+h2 {
+  padding: 3%;
+}
 body {
   background-color: #EFD6AC;
   font-family: 'Raleway', sans-serif;
