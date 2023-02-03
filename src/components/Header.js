@@ -1,8 +1,4 @@
-import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles.css';
-
-function Header(props) {
+export function Header(props) {
     return (
 <head>
     <meta charset="utf-8" />
@@ -18,5 +14,3 @@ function Header(props) {
   </head>
     )
 }
-
-export default Header

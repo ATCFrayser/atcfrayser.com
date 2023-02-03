@@ -1,8 +1,4 @@
-import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles.css';
-
-function Footer() {
+export function Footer() {
 
     const currentYear = new Date().getFullYear();
 
@@ -15,5 +11,3 @@ function Footer() {
     </footer>
     );
 }
-
-export default Footer;
