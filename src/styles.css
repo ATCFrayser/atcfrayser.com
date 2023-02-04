@@ -6,8 +6,10 @@ h1 {
 }
 h2 {
   padding: 3%;
+  color: #04151F;
 }
 body {
+  color: #04151F;
   background-color: #EFD6AC;
   font-family: 'Raleway', sans-serif;
 }
@@ -48,13 +50,41 @@ text-align: center;
 }
 .aboutImgRight {
   border-radius: 5% 10%;
+  width: 90%;
 }
 .aboutImgLeft {
   border-radius: 10% 5%;
+  width: 90%;
 }
-.img-fluid{
+/* .img-fluid{
     
   max-width:100%;
   height:auto;
+} */
+.col {
+  padding: 2%;
+}
 
+.weatherCard {
+  text-align: center;
+  background-color: #183A37;
+  border: 8px solid;
+  border-radius: 30%;
+  border-style: ridge;
+  border-color: #C44900;
+  padding: 5%;
+}
+
+.weatherCard img{
+  background-color: #EFD6AC;
+  border-radius: 50%;
+}
+
+.weatherCard h2 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.thisWebsite img {
+  width: 30%;
 }

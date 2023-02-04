@@ -5,8 +5,8 @@ export function Footer() {
     return (
     <footer>
     <img src='assets/images/mountainNarrow.png' className="img-fluid" alt="Mount Elbert" />
-          <div class="row" style={{textAlign: "center"}}>
-            <div class="col"><p>Copyright © {currentYear}</p></div>
+          <div className="row" style={{textAlign: "center"}}>
+            <div className="col"><p>Copyright © {currentYear}</p></div>
           </div>
     </footer>
     );

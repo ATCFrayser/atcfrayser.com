@@ -1,7 +1,8 @@
 export function FutureProjects(){
     return <section>
         <div class="topSection">
-          <h2>Multiple projects are planned, the biggest of which would be a mental health support APP. Also, there is potential for an English learning APP as well.</h2>
+        <h1>FutureProjects</h1>
+          <h2>I currently am work on multiple projects, the biggest of which would be a mental health support APP. Futher projects are planned</h2>
         </div>
         <div class="containerFluid">
             <div class="row">
@@ -16,6 +17,12 @@ export function FutureProjects(){
                 </div>
                 <div class="col">
                     <p>This APP will allow people to write in a journal, complete activities, track progress, read article and watch videos.</p>
+                </div>
+            </div>
+            <div class="row">
+            <h2>This project will use a database and many different libraries.</h2>
+                <div style={{textAlign: "center"}}>
+                    <img src="assets/images/flutterProjects.png" class="img-fluid" style={{width: "60%", borderRadius: "2%"}} alt="zhuyixinli" />
                 </div>
             </div>
         </div>
