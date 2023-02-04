@@ -28,7 +28,7 @@ export function Home() {
         <img src={'http://openweathermap.org/img/wn/' + data?.weather[0].icon + '@2x.png'} className="img-fluid" alt="Weather IMG" />
         </div>
         <div className="col">
-        <h2> It is currently {data?.weather[0].description} in {data?.name}, my hometown.
+        <h2> The current forcast calls for {data?.weather[0].description} in {data?.name}, my hometown.
         </h2>
         </div>
         <h2>Checked at { today }</h2>
