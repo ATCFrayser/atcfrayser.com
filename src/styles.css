@@ -76,8 +76,11 @@ text-align: center;
 }
 
 .weatherCard img{
-  background-color: #EFD6AC;
-  border-radius: 50%;
+  background-color: white;
+  border-radius: 20%;
+  border-style: ridge;
+  border: #C44900;
+  border: 2px solid;
 }
 
 .weatherCard h2 {
