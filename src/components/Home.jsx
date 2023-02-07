@@ -19,7 +19,7 @@ export function Home() {
     <div className="containerFluid" style={{width: "100%"}}>
       <div className="row">
           <div className="col" style={{padding: "5%"}}>
-              <h2>I'm a Flutter programmar with experience in multiple programming languages, with a focus on Web Developement languages. I’m seeking to further my career in the technology field and complete more projects. I’m a self starter with experience working alone and on small teams.</h2>
+              <h2>I'm a Flutter programmer with experience in multiple programming languages, with a focus on Web Developement languages. I’m seeking to further my career in the technology field and complete more projects. I’m a self starter with experience working alone and on small teams.</h2>
           </div>
       <div className="col">
         <div className="weatherCard">
