@@ -1,38 +1,41 @@
 export function ThisWebsite(){
   return <section>
-  <div class="thisWebsite">
-      <h1>This Website</h1>
+  <div className="thisWebsite topSection">
+      <h1 className="paddingH">This Website</h1>
   </div>
-  <div class="container-fluid">
-      <div class="row">
-          <div class="col">
-              <h2>This webite was first built in Node and Express.</h2>
+  <div className="containerFluid thisWebsiteDiv">
+      <div className="row">
+          <div className="col">
+              <h2>This website was first built in Node and Express.</h2>
           </div>
-          <div class="col">
-              <img class="aboutImgRight" src="assets/images/siteNodeExpress.png" alt="Express" />
+          <div className="col">
+              <img className="aboutImgRight" src="assets/images/siteNodeExpress.png" alt="Express" />
           </div>
       </div>
-  </div>
-  <div class="container-fluid">
-      <div class="row">
-          <div class="col">
-                  <img class="aboutImgLeft" src="assets/images/siteReact.png" alt="React" />
+      <div className="row">
+          <div className="col">
+                <img className="aboutImgLeft" src="assets/images/siteReact.png" alt="React" />
           </div>
-          <div class="col">
-              <h2>Then, I redesigned it in React.</h2>
+          <div className="col">
+              <h2>Then, it was rebuilt in React.</h2>
           </div>
       </div>
-      <div class="container-fluid">
-          <div class="row">
-              <div class="col">
+          <div className="row">
+              <div className="col">
                   <h2>It uses APIs and outside libraries.</h2>
               </div>
-              <div class="col">
-                  <img class="img-fluid aboutImgRight" src="assets/images/siteAxios.png" alt="Axios" />
-                  <img class="img-fluid aboutImgRight" src="assets/images/siteAPI.png" alt="API" />
+              <div className="col">
+                  <img className="img-fluid aboutImgRight" src="assets/images/siteAxios.png" alt="Axios" />
               </div>
           </div>
-      </div>
-  </div>
+          <div className="row">
+              <div className="col">
+                <h2>Though this website is relatively simple, it contains examples of my web development abilities, as well as my ability to understand and use others' code.</h2>
+              </div>
+              <div className="col">
+                  <img className="img-fluid aboutImgRight" src="assets/images/siteAPI.png" alt="Axios" />
+              </div>
+          </div>
+        </div>
 </section>
 }

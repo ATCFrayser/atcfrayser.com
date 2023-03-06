@@ -13,7 +13,7 @@ export function Home() {
   return <>
   <section>
     <div className="topSection">
-      <h1>Hello, world,</h1>
+      <h1>Hello, world!</h1>
       <h1>I'm Andrew!</h1>
     </div>
     <div className="containerFluid" style={{width: "100%"}}>

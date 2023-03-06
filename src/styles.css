@@ -3,6 +3,7 @@ h1 {
   padding: 3%;
   font-size: 3rem;
   font-family: 'Patrick Hand', cursive;
+  text-align: center;
 }
 h2 {
   padding: 3%;
@@ -17,6 +18,10 @@ section {
   padding: 0;
   margin: 0;
   border: 0;
+}
+footer {
+  position: relative;
+  bottom: 0;
 }
 .navbarSec {
   padding: "0";
@@ -40,9 +45,8 @@ section {
 .nav-link {
   color: #EFD6AC !important;
 }
-.topSection h1 {
-padding: 0;
-text-align: center;
+.paddingH {
+padding: 0,1%,0,0;
 }
 .footer {
   text-align: center;
@@ -63,6 +67,11 @@ text-align: center;
 } */
 .col {
   padding: 2%;
+}
+
+.bottomImg {
+  position: relative;
+  bottom: 0;
 }
 
 .weatherCard {
@@ -90,4 +99,8 @@ text-align: center;
 
 .thisWebsite img {
   width: 30%;
+}
+
+.thisWebsiteDiv h2 {
+  padding: 70px 0;
 }

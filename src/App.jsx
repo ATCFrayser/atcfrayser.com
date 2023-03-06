@@ -38,14 +38,14 @@ return <>
   </div>
 
       {/* Routes */}
-      <body>
+      <main>
       <Routes>
     <Route path="/" element ={<Home />} />
     <Route path="/thiswebsite" element ={<ThisWebsite />} />
     <Route path="/futureprojects" element ={<FutureProjects />} />
     <Route path="/about" element ={<About />} />
     </Routes>
-      </body>
-    <Footer />
+      </main>
+      <Footer />
 </>
 }
